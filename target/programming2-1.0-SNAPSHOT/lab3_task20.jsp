@@ -61,7 +61,9 @@
     dStep = getCurrentValue(request, "dStep", dStep);
 %>
 
-<div style="font-weight: bold; font-size: 30px">y = 2 * Math.log(Math.pow(b, a)) + Math.abs(Math.asin(-Math.sqrt(d / c)))</div>
+<div style="font-weight: bold; font-size: 30px">y = 2 * Math.log(Math.pow(b, a)) + Math.abs(Math.asin(-Math.sqrt(d /
+    c)))
+</div>
 
 <div style="width: 100%; height: 1px; background: black; margin-top: 20px"></div>
 
@@ -116,12 +118,10 @@
                         }
                     }
                 }
-
             }
         %>
         </tbody>
     </table>
-
     <% } %>
 </form>
 </body>
