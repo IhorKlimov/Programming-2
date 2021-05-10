@@ -1,0 +1,70 @@
+h1 {
+    font-family: Raleway sans-serif;
+    text-align: center;
+    font-size:20px;
+    color: #000000;
+}
+a {
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 33.333%;
+    padding: 100px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.choice {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.button1 {
+    border: 1px solid #ffd900;
+    background-color: #c9b200;
+    color: #000;
+    text-decoration: none;
+    width: 33.333%;
+    display: flex;
+    justify-content: center;
+}
+.button1 a {
+    color: #000000;
+}
+.button2 {
+    border: 1px solid #64C7FF;
+    background-color: #3bb2f8;
+    color: #000;
+    text-decoration: none;
+    width: 33.333%;
+    display: flex;
+    justify-content: center;
+}
+.button2 a {
+    color: #000000;
+}
+.button3 {
+    border: 1px solid #ff0101;
+    background-color: #b10000;
+    color: #000;
+    text-decoration: none;
+    width: 33.333%;
+    display: flex;
+    justify-content: center;
+}
+.button3 a {
+    text-align: center;
+    color: #000000;
+}
+.button1:hover {
+    box-shadow: 0 0 44px rgba(0,0,0,0.3);
+    background: linear-gradient(to bottom, #FF9415,#FFC709);
+}
+.button2:hover {
+    box-shadow: 0 0 44px rgba(0,0,0,0.3);
+    background: linear-gradient(to bottom, #CE9FFC,#7367F0);
+}
+.button3:hover {
+    box-shadow: 0 0 44px rgba(0,0,0,0.3);
+    background: linear-gradient(to bottom, #6D107E,#F03358);
+}
