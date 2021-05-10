@@ -1,4 +1,4 @@
-package com.example.p2_lab_02_web_2;
+package com.example.programming2.lab2;
 
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;

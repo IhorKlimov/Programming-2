@@ -1,11 +1,11 @@
-package com.example.p2_lab_02_web_2;
+package com.example.programming2.lab3;
 
 import java.io.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 
-@WebServlet(name = "helloServlet", value = "/hello-servlet")
-public class HelloServlet extends HttpServlet {
+@WebServlet(name = "helloServlet", value = "/lab3")
+public class HelloServletLab3 extends HttpServlet {
     private String message;
 
     public void init() {
@@ -15,7 +15,6 @@ public class HelloServlet extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
         response.setContentType("text/html");
 
-        // Hello
         PrintWriter out = response.getWriter();
         out.println("<html><body>");
         out.println("<h1>" + message + "</h1>");

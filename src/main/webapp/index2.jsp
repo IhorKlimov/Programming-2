@@ -11,10 +11,10 @@
         <a href="Task1.jsp">Task 1</a>
     </div>
     <div class="button2">
-        <a href="Task 2.jsp">Task 2</a>
+        <a href="Task2.jsp">Task 2</a>
     </div>
     <div class="button3">
-        <a href="Task 3.jsp">Task 3</a>
+        <a href="Task3.jsp">Task 3</a>
     </div>
 </div>
 </body>

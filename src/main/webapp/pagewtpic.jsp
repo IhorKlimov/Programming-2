@@ -11,6 +11,6 @@
     <title>Сторінка з зображенням</title>
 </head>
 <body>
-<img src="pic1.png"  alt="cat"/>
+<img src="pic1.png" alt="cat"/>
 </body>
 </html>
