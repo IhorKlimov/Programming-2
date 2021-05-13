@@ -45,8 +45,6 @@
 %>
 
 <%
-    int d = 3;
-
     aFrom = getCurrentValue(request, "aFrom", aFrom);
     bFrom = getCurrentValue(request, "bFrom", bFrom);
     cFrom = getCurrentValue(request, "cFrom", cFrom);

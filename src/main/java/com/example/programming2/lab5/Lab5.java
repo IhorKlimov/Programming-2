@@ -65,5 +65,4 @@ public class Lab5 {
 
         return stringBuilder.toString();
     }
-
 }
